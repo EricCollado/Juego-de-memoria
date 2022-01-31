@@ -1,0 +1,59 @@
+body{
+    background-color: crimson;
+    color: white;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+#main_cont{
+    background: darkgray;
+    border: double 5px black;
+    border-radius: 10px;
+    padding: 45px;
+    display: grid;
+    min-width: 1000px;
+    grid-template-columns: repeat(6,1fr);
+    justify-content: center;
+}
+
+#main_cont div{
+    width: 150px;
+    height: 150px;
+    border: solid 2px crimson;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+#main_cont div:hover{
+    background: brown;
+    color: pointer;
+}
+
+.imagenes{
+    width: 100px;
+    height:100px;
+    margin-top: 30px ;
+    visibility: hidden;
+}
+
+#main_cont div .visible{
+    visibility: visible;
+}
+
+form {
+    margin-bottom: 15px;
+}
+
+.imagenwin{
+    position: absolute;
+    bottom: -100px;
+    left: 400px;
+}
